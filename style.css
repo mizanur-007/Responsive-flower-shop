@@ -434,6 +434,7 @@
   height: auto;
   justify-content: center;
   align-items: center;
+  border-radius:0px 0px 15px 15px;
  }
  .header-title{
   width: 100%;
@@ -454,5 +455,62 @@
   margin-top: 10px;
 
  }
+
+ /* feature part  */
+ .feature-image-container{
+  flex-direction: column;
+  gap: 60px;
+ }
+ .feature-information{
+  margin-top: 25px;
+  margin-bottom: 430px;
+ }
+
+  /* sevice ::part  */
+  .service-container{
+    flex-direction: column;
+    margin-top: 450px;
+    height: auto;
+    gap: 15px;
+  }
+
+  /* deal part  */
+  .deal-container{
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+    margin-bottom: -30px;
+    border-radius: 15px;
+
+  }
+  /* favourite deal part  */
+  .favourite-img-info-container{
+    flex-direction: column;
+    margin-top: 480px;
+    /* margin-bottom: 100px; */
+  }
+
+  /* instagram part  */
+  .insta-image-container{
+    flex-direction: column;
+    height: auto;
+    margin-top: 40px;
+  }
+  .instagram-info-container{
+    margin-top: 550px;
+  }
+
+  /* latest deal part  */
+  .latest-deals-container{
+    width: 100%;
+    margin: 0px;
+    height: auto;
+  }
+  .email{
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  /* footer part  */
   
 }
