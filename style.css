@@ -422,3 +422,37 @@
    font-family: Lato;
    margin-top: 30px;
 }
+
+.hide{
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+ /* header part  */
+ .header-container{
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+ }
+ .header-title{
+  width: 100%;
+  font-size: 25px;
+  padding: 0px;
+  /* text-align: center; */
+ }
+ .header-info{
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  padding: 0px;
+  height: auto;
+ }
+ .head-image{
+  width: 70%;
+  height: auto;
+  margin-top: 10px;
+
+ }
+  
+}
